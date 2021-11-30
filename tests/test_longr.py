@@ -1,4 +1,4 @@
-from pythoncalculator.longr import add,divide
+from pythoncalculator.longr import add,divide,multiply
 
 
 def test_add():

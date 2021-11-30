@@ -8,3 +8,6 @@ def test_add():
 
 def test_divide():
     assert divide(10, 2) == 5
+
+def test_multiply():
+    assert multiply(10, 3) == 30

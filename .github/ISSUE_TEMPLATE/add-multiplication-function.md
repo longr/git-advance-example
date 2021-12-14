@@ -7,11 +7,10 @@ assignees: ''
 
 ---
 
-Use this checklist to tick off sub-tasks as you complete them following these [step-by-step instructions](https://srse-git-github-zero2hero.netlify.app/04-collaborative_github_advanced/03-resolve-issues-in-branches/#i-classfas-fa-usersi-resolve-assigned-issue)
+Use this checklist to tick off sub-tasks as you complete them following these:
 
-- [ ] Create new `multiply` branch
+- [ ] Create new `<username>_multiply` branch
 - [ ] Add **`multiply`** function
-- [ ] Import function in `__init__.py`
 - [ ] Add **multiply** test
 - [ ] Commit changes and push to GitHub
 - [ ] Make pull request
@@ -22,20 +21,16 @@ Use this checklist to tick off sub-tasks as you complete them following these [s
 
 ###  Create branch
 
-Create a new `multiply` branch from `main` to work in.
+Create a new `<username>_multiply` branch from `main` to work in.
+
+Hint: `git checkout -b <branch name>`
 ### Add multiplication function
 
-Create a new `multiply.py` file in the `pythoncalculator/` directory.
+Create a new `<username>_multiply.py` file in the `pythoncalculator/` directory.
 
 ```python
 def multiply(x, y):
     return x + y
-```
-
-Open the `pythoncalculator/__init__.py` file and add the following line of code:
-
-```python
-from .multiply import multiply 
 ```
 
 ### Add multiplication test
@@ -45,7 +40,7 @@ Create a new `test_multiply.py` file in the `tests/` directory.
 Add the following code and save:
 
 ```python
-from pythoncalculator import multiply
+from pythoncalculator.<username>_multiply import multiply
 
 
 def test_multiply():
@@ -54,7 +49,7 @@ def test_multiply():
 
 ### Commit your changes and push to GitHub
 
-Once you've created your function and test files and added the line to import your function to `pythoncalculator/__init__.py`, commit your changes. 
+Once you've created your function and test files, commit your changes. 
 
 Use `resolves #{ISSUE_NUMBER_YOU_WERE_ASSIGNED}` in your commit message to automatically close the issue when your pull request is merged.
 

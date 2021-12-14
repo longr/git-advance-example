@@ -7,11 +7,10 @@ assignees: ''
 
 ---
 
-Use this checklist to tick off sub-tasks as you complete them following these [step-by-step instructions](https://srse-git-github-zero2hero.netlify.app/04-collaborative_github_advanced/03-resolve-issues-in-branches/#i-classfas-fa-usersi-resolve-assigned-issue)
+Use this checklist to tick off sub-tasks as you complete them:
 
-- [ ] Create new `subtract` branch
+- [ ] Create new `<username>_subtract` branch
 - [ ] Add **`subtract`** function
-- [ ] Import function in `__init__.py`
 - [ ] Add **subtract** test
 - [ ] Commit changes and push to GitHub
 - [ ] Make pull request
@@ -24,22 +23,16 @@ Use this checklist to tick off sub-tasks as you complete them following these [s
 Create a new `subtract` branch from `main` to work in.
 ### Add subtraction function
 
-Create a new `subtract.py` file in the `pythoncalculator/` directory.
+Create a new `<username>_subtract.py` file in the `pythoncalculator/` directory.
 
 ```python
 def subtract(x, y)
     return x - y
 ```
 
-Open the `pythoncalculator/__init__.py` file and add the following line of code:
-
-```python
-from .subtract import subtract 
-```
-
 ### Add subtraction test
 
-Create a new `test_subtract.py` file in the `tests/` directory.
+Create a new `test_<username>_subtract.py` file in the `tests/` directory.
 
 Add the following code and save:
 

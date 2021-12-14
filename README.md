@@ -1,3 +1,24 @@
+# PRs, Issues, Forking, and Syncing
+
+## Assigner
+ 1. Raise an Issue on this repo (upstream)
+ 2. Assign issue to Assignee (or yourself)
+ 3. Once assignee has submitted PR and tests have finished; Review and comment.
+ 4. Once assignee has fixed PR, approve PR.
+ 5. Note PR in issue and close.
+ 
+## Assignee
+
+1. Fork repository
+2. Clone repository to local machine
+3. Follow instructions in issue your are tagged in.
+4. Wait for tests to run.
+5. Wait for feedback from Assigner and fix code.
+6. Once PR has been accepted, delete branch from your fork.
+7. On your machine, swap to main branch and add upstream repo
+8. Git pull upstream/main
+9. Git push origin main
+
 # python-calculator
 Basic calculator functions in python
 

@@ -1,4 +1,4 @@
-from pythoncalculator.<username>_multiply import multiply
+from pythoncalculator.abarton5_multiply import multiply
 
 
 def test_multiply():

@@ -49,7 +49,7 @@
    2. Using git, `add`, `commit`, and `push`
    3. This will update the PR
 7. Once PR has been accepted, delete branch from your fork. `git branch -d <local-branch>
-8. On your machine, swap to main branch and add upstream repo ` git add remote upstream git@github.com:longr/git-advance-example.git`
+8. On your machine, swap to main branch and add upstream repo ` git remote add upstream git@github.com:longr/git-advance-example.git`
 8. Fetch updated main on upstream `git pull upstream main`
 9. Push changes to your fork `git push origin main`
 

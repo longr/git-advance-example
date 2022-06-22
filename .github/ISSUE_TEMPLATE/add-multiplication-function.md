@@ -35,7 +35,7 @@ def multiply(x, y):
 
 ### Add multiplication test
 
-Create a new `test_multiply.py` file in the `tests/` directory.
+Create a new `<username>_test_multiply.py` file in the `tests/` directory.
 
 Add the following code and save:
 

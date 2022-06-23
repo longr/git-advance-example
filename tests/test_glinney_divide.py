@@ -1,4 +1,4 @@
-from pythoncalculator import divide
+from pythoncalculator.glinney_divide import divide
 
 
 def test_divide():

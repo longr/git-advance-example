@@ -16,8 +16,10 @@
    3. Type the username of the person you wish to assign the issue to in the box.
    4. Click on the desired username in the box that appears (a tick should appear once you click on them)
 4. Once assignee has submitted PR, and tests have finished comment on the issue.
-5. Once tests pass, approve PR.
-  
+5. Once tests pass, approve PR citing issue number in comment.
+ 
+ 
+ I think these are duplicate instructions.  Ignore for now.
  1. Raise an Issue on this repo (upstream)
  2. Assign issue to Assignee (or yourself)
  3. Once assignee has submitted PR and tests have finished; Review and comment.

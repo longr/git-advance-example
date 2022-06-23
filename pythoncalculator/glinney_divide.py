@@ -1,2 +1,3 @@
 def divide(x, z):
-    return x / y
+    y = x//z
+    return y

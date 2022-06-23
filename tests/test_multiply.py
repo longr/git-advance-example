@@ -1,4 +1,4 @@
-from pythoncalculator.glinney_multiply import multiply
+from pythoncalculator.abarton5_multiply import multiply
 
 
 def test_multiply():
